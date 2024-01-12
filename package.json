@@ -1,7 +1,6 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -15,7 +14,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "Rysaev Damir <freepad@ya.ru>",
+  "author": "Yana",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
@@ -33,5 +32,14 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/melnikonayana/ajs-6.2-destructuring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melnikonayana/ajs-6.2-destructuring/issues"
+  },
+  "homepage": "https://github.com/melnikonayana/ajs-6.2-destructuring#readme",
+  "description": ""
 }
